@@ -113,6 +113,8 @@ Embedding dropout rate.
 
 Among these simplifications include 2d sinusoidal positional embedding, global average pooling (no CLS token), no dropout, batch sizes of 1024 rather than 4096, and use of RandAugment and MixUp augmentations. They also show that a simple linear at the end is not significantly worse than the original MLP head
 
+这些简化包括二维正弦位置嵌入、全局平均池化(没有CLS令牌)、无dropout、批处理大小为1024而不是4096，以及使用RandAugment和MixUp增强。 他们还表明，一个简单的线性在结束并不明显比原来的MLP头差
+
 You can use it by importing the `SimpleViT` as shown below
 
 ```python
